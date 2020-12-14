@@ -1,3 +1,9 @@
 
+# run with
+#     > ansible-galaxy install -r requirements.yml
+
+# force latest version.
+#  change to no if you want to keep a version.
 - src: tpboyle.mysql
 - src: tpboyle.node_js
+- src: tpboyle.setup

@@ -2,8 +2,10 @@
 - name: Setup & start basic dev server.
   hosts: all
   become: yes
-
+  vars_files:
+    - vars/users.yml
   roles:
+    - tpboyle.setup
     - tpboyle.mysql
     - tpboyle.node_js
   tasks: []
