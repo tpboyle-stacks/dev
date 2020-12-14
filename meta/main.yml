@@ -1,0 +1,8 @@
+---
+
+galaxy_info:
+  author: "Patrick Boyle"
+  description: "Simple dev server."
+dependencies:
+  - tpboyle.mysql
+  - tpboyle.node_js

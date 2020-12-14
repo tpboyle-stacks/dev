@@ -1,0 +1,9 @@
+---
+- name: Setup & start basic dev server.
+  hosts: all
+  become: yes
+
+  roles:
+    - tpboyle.mysql
+    - tpboyle.node_js
+  tasks: []
